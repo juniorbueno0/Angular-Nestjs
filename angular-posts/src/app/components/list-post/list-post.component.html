@@ -1,0 +1,9 @@
+<div class= "flex justify-center items-center">
+    <div class="bg-gradient-to-bl from-slate-300 via-slate-200 flex h-[540px] w-[800px] justify-center items-center">
+        <div class="flex flex-col w-[800px] justify-center items-center">
+            <div class="bg-slate-100 flex w-[790px] h-[40px] mt-1 rounded-md justify-center items-center" *ngFor="let item of postList">
+                <div class="flex text-xl font-semibold">{{item.id}} - {{item.content}}</div>
+            </div>
+        </div>
+    </div>
+</div>

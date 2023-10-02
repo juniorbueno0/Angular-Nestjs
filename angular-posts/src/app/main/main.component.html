@@ -1,0 +1,10 @@
+<p>main works!</p>
+
+<form [formGroup]="FormData" (submit)="onSubmitForm()">
+    <input type="text" formControlName="content">
+    <button type="submit">submit</button>
+</form>
+
+<div *ngFor="let item of postList">
+    {{item.id}} - {{item.content}}
+</div>
