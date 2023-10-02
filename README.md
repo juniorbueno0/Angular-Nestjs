@@ -1,9 +1,9 @@
 ## ANGULAR NEST api project
 
-### Angular
-### npm i 
-### ng serve
+### // Angular
+### npm i              <- install dependencies
+### ng serve           <- run 
 
-### Nest
-### npm i
-### npm run start:dev
+### // Nest
+### npm i              <- install dependencies
+### npm run start:dev  <- run 
